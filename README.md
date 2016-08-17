@@ -61,3 +61,8 @@ The ServiceFactory creates a thread-pool and passes it on to individual route ha
 	        .sendWithEOM();
 	}
 	
+
+#### Easier deployment
+
+`make Hello_partstatic` statically links all non-standard libraries into the binary for easier deployment. Edit the Makefile to match your requirements.
+
